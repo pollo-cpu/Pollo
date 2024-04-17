@@ -1,84 +1,49 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Profile Pollo</title>
-    <link rel="stylesheet" href="style.css">
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</head>
-<body>
-    <header>
-        <nav class="container">
-            <div class="logo-box">
-                <a href="#" target="_blank"><img src="pollo.jpg" alt="Picture of Polo" class="logo">
-                </a>
-            </div>
-            <div class="parent-link">
-                <a href="#" class="social link">About</a>
-                <a href="#" class="social link">Projects</a>
-                <a href="#" class="social link">Experience</a>
-                <a href="#" class="social link">Contact</a>
-            </div>
-            <div class="icon">
-                <a href="https://facebook.com" target="_blank" class="sm-icon">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-                <a href="https://instagram.com" target="_blank" class="sm-icon">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                </a>
-                <a href="https://twitter.com" target="_blank" class="sm-icon">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                </a>
-                <a href="https://google.com" target="_blank" class="sm-icon">
-                    <ion-icon name="logo-google"></ion-icon>
-                </a>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Resume Pollo</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav__content">
+                <div class="logo"><a href="#">Pollo</a></div>
+                <label for="check" class="chechbox">
+                    <i class="ri-menu-add-line"></i>  
+                </label>
+                <input type="checkbox" name="check" id="check">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
         </nav>
-        <div class="header-container">
-            <div class="hdr-container-left">
-                <h1>Pollo Punya</h1>
-                <h3>CEO & Co-founder at Polo Rados 2024</h3>
-                <p>
-                    A 31-years-old <strong>Full Stack Developer</strong> at ByteVerse withh 
-                    <strong>12 years</strong> of coding exprerience.
-                </p>
-                <a href="mailto:lekirsetia01@gmail.com" class="btn">Schedule a Meeting</a>
+        <section class="section">
+            <div class="section__container">
+                <div class="content">
+                    <p class="subtitle">HELLO</p>
+                    <h1 class="title">
+                        I'm <span>Pollo Rados<br>a</span> Web Developer
+                    </h1>
+                    <p class="description">
+                        Selamat Datang ke Web Developer Portfolio! Saya Pollo Rados
+                    </p>
+                    <div class="action__btns">
+                        <button class="hire__me">Hire Me</button>
+                        <button class="portfolio">Portfolio</button>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="test1.jpg" alt="profile">
+                </div>
             </div>
-            <div class="hdr-container-right">
-                <img src="pollo.jpg" alt="Picture of Polo">
-            </div>
-        </div>
-    </header>
-
-    <article>
-    <div class="upr-box">
-        <div class="box-mid">
-            <h3>Web Development</h3>
-            <p>I am conducting a survey on assessing Physical Activity and Motivation to Participate in Physical Activity among Sultan Idris Education University (UPSI) Students</p>
-        </div>
-        <div class="box-mid">
-            <h3>Mobile Development</h3>
-            <p>Would you kindly be my respondent? The survey should take approximately 10 minutes to complete.  Please read the questionnaire carefully and respond to each item precisely</p>
-        </div>
-        <div class="box-mid">
-            <h3>Copywriting</h3>
-            <p>This is strictly an academic exercise and you are assured that all information given by you will be kept in strictest confidence</p>
-        </div>
-    </div>
-    <div class="lower-box">
-        <div class="box-mid">
-            <h3>Photo Editing</h3>
-            <p>This questionnaire consists of THREE sections</p>
-        </div>
-        <div class="box-mid">
-            <h3>Video Editing</h3>
-            <p>Please take your time to complete all questions as completely as possible.  I really like to have your input on this survey.</p>
-        </div>
-    </div>
-    </article>
-</body>
+        </section>
+    </body>
 </html>
-
